@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 function NavBar() {
   const theme = localStorage.getItem("theme");
-  const isDark = theme === "dark" ? true : false;
+  const isDark = theme === "light" ? false : true;
   const [dark, setDark] = useState(isDark);
   useEffect(
     function () {

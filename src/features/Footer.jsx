@@ -53,7 +53,8 @@ function Footer() {
       </div>
 
       <p className="text-center text-sm">
-        copyright &copy; nirbhaychauhan 2025
+        Copyright &copy;{" "}
+        <span className="text-secondary">github/nirbhayfr</span> 2025
       </p>
     </footer>
   );
